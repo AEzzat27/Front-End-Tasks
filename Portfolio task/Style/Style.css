@@ -1,0 +1,160 @@
+/*Reset*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Global Style for the page*/
+
+html,
+body {
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.8rem;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Utility Classes*/
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+.bg-blue {
+    background-color: #1DBC9C;
+}
+.bg-dark {
+    background-color: #30394C;
+}
+.text-dark {
+    color: #30394C;
+}
+.hr-line {
+    width: 5%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/*Header Style*/
+
+.head-size {
+    height: 40px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 5.5px;
+}
+.head-size .header .header-links ul li {
+    display: inline-block;
+    padding-left: 80px;
+}
+
+/*Profile Pic Style*/
+
+.profile-pic {
+    height: 350px;
+}
+.profile-pic ul li img {
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 9%
+}
+
+/* Portfolio Section style*/
+
+.portfolio {
+    margin-top: 50px;
+}
+.portfolio-info {
+    padding-bottom: 20px;
+}
+.portfolio .portfolio-pic {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio .portfolio-pic div {
+    width: 33.3%;
+    height: 200px;
+}
+.portfolio .portfolio-pic div img {
+    width: 70%;
+    border-radius: 5%;
+}
+
+/* About Section Style*/
+
+.about-section .about-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About Section Style*/
+
+.about-section {
+    padding-top: 50px;
+    height: 500px;
+    color: white;
+}
+.about-section .about-info div {
+    width: 40%;
+}
+.about-section .button button {
+    width: 200px;
+    padding: 8px;
+    background-color: #1DBC9C;
+    border-radius: 12%;
+    color: white;
+}
+.about-section .button button i {
+    padding-right: 5px;
+}
+
+/*Contact Section Style*/
+.contact{
+    padding-top: 50px;
+}
+.contact .form{
+    margin-bottom: 10px;
+}
+.contact .form input,
+.contact .form textarea {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+.contact .form button{
+    padding: 8px;
+     background-color: #1DBC9C;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.contact .contact-info .row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 180px;
+    color: white;
+    
+}
+.contact .contact-info .row div{
+    width: 30%;
+}

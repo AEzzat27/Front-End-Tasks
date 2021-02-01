@@ -1,0 +1,18 @@
+.navbar {
+  .navbar-brand {
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    &:hover {
+      color: white;
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      padding: 0 20px;
+      .nav-link:hover {
+        color: white;
+      }
+    }
+  }
+}

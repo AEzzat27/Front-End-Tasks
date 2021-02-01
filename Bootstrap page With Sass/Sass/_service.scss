@@ -1,0 +1,33 @@
+.service{
+    padding-top: 10%;
+    hr{
+        @include short-line;
+        color:  #f4623a;
+        margin-bottom: 100px;
+    }
+    .col-md-3{
+        i{
+            font-size: 4rem;
+            padding-bottom: 20px;
+            color: #f4623a;
+        }
+        h4{
+            font-weight: bolder;
+        }
+        p{
+            font-weight: bolder;
+            color: gray;
+        }
+    }
+    .img{
+            margin-top: 100px;
+            width: 100%;
+        .img-holder{
+            --bs-gutter-x: 0px; /*Found this in inspect ??! what is that */
+            width: 33.3%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

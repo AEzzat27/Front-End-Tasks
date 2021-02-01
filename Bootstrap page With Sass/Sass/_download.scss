@@ -1,0 +1,10 @@
+.download{
+    height: 400px;;
+    padding-top: 10%;
+    background-color: #343A40;
+    button{
+        @include round-button();
+        background-color: white;
+        color: black;
+    }
+}

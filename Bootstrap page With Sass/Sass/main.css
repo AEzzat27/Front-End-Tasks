@@ -1,0 +1,206 @@
+html, body {
+  line-height: 1.8rem;
+  font-family: 'Domine', serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h3 {
+  font-size: 2.6rem;
+}
+
+.navbar .navbar-brand {
+  color: gray;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-item {
+  padding: 0 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+}
+
+.show-case {
+  height: 41.5rem;
+  padding-top: 12%;
+  background-image: url(../imges/background/wallpaper.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.show-case div h1 {
+  font-size: 4rem;
+}
+
+.show-case div hr {
+  width: 5%;
+  display: inline-block;
+  color: #F4623A;
+  margin: 10px auto;
+  height: 5px;
+}
+
+.show-case div p {
+  font-size: 1.4rem;
+}
+
+.show-case div button {
+  border-radius: 28px;
+  background-color: #F4623A;
+  padding: 15px 20px;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.show-case div button:hover {
+  background-color: gray;
+}
+
+/*Responsive*/
+@media (max-width: 570.98px) {
+  .show-case div h1 {
+    font-size: 2rem;
+  }
+}
+
+.about {
+  height: 38rem;
+  padding-top: 12rem;
+  background-color: #f4623a;
+}
+
+.about div hr {
+  width: 5%;
+  display: inline-block;
+  color: #F4623A;
+  margin: 10px auto;
+  height: 5px;
+  color: white;
+}
+
+.about div button {
+  border-radius: 28px;
+  background-color: #F4623A;
+  padding: 15px 20px;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+}
+
+.about div button:hover {
+  background-color: gray;
+}
+
+.service {
+  padding-top: 10%;
+}
+
+.service hr {
+  width: 5%;
+  display: inline-block;
+  color: #F4623A;
+  margin: 10px auto;
+  height: 5px;
+  color: #f4623a;
+  margin-bottom: 100px;
+}
+
+.service .col-md-3 i {
+  font-size: 4rem;
+  padding-bottom: 20px;
+  color: #f4623a;
+}
+
+.service .col-md-3 h4 {
+  font-weight: bolder;
+}
+
+.service .col-md-3 p {
+  font-weight: bolder;
+  color: gray;
+}
+
+.service .img {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.service .img .img-holder {
+  /*--bs-gutter-x: 0px;*/
+  /*Found this in inspect ??! what is that */
+  width: 33.3%;
+}
+
+.service .img .img-holder img {
+  width: 100%;
+}
+
+.download {
+  height: 400px;
+  padding-top: 10%;
+  background-color: #343A40;
+}
+
+.download button {
+  border-radius: 28px;
+  background-color: #F4623A;
+  padding: 15px 20px;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+
+.download button:hover {
+  background-color: gray;
+}
+
+.contact {
+  height: 8rem;
+  padding-top: 10%;
+}
+
+.contact hr {
+  width: 5%;
+  display: inline-block;
+  color: #F4623A;
+  margin: 10px auto;
+  height: 5px;
+}
+
+.contact p {
+  color: gray;
+}
+
+.contact .row {
+  padding-top: 18px;
+}
+
+.contact .row i {
+  font-size: 4rem;
+  color: gray;
+}
+
+.contact .row p {
+  padding-top: 10px;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

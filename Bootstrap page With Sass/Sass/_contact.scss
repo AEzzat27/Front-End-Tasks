@@ -1,0 +1,21 @@
+.contact{
+    height: 8rem;
+    padding-top: 10%;
+    hr{
+        @include short-line();
+    }
+    p{
+        color: gray;
+    }
+    .row{
+        padding-top: 18px;
+        i{
+            font-size: 4rem;
+            color: gray;
+        }
+        p{
+            padding-top: 10px;
+            color: black;
+        }
+    }
+}

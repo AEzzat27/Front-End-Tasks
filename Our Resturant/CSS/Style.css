@@ -1,0 +1,45 @@
+.head{
+    background-color: #2F2F2F;
+}
+
+.section2{
+    height: 768px;
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.section2-items{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.section2-items div{
+    font-weight: bold;
+    font-size: 32px;
+}
+.section2-items div a{
+    text-decoration: none;
+    color: orange;
+}
+.about{
+    background-color: #EFEFF1;
+    height: 300px;
+    color : black;
+    font-weight: bold;
+}
+.about .container hr{
+    width: 80px;
+    color: orange;
+    border: 3px solid orange;
+    margin-left: 47%;
+}
+.icon{
+    margin-top: 150px;
+}
+.icon .row div i{
+    font-size: 80px;
+}
+.contact{
+    margin-top: 350px;
+}

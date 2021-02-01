@@ -1,0 +1,33 @@
+.show-case {
+  height: 41.5rem;
+  padding-top: 12%;
+  background-image: url(../imges/background/wallpaper.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  div {
+    h1 {
+      font-size: 4rem;
+    }
+    hr{
+        @include short-line();
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    button{
+        @include round-button();
+    }
+  }
+}
+
+/*Responsive*/
+@media (max-width: 570.98px) { 
+  .show-case{
+    div{
+      h1{
+        font-size: 2rem;
+      }
+    }
+  }
+}

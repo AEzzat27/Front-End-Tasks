@@ -1,0 +1,106 @@
+/*Global Style*/
+html,
+body {
+  font-family: "Sriracha", cursive;
+  line-height: 1.8rem;
+  box-sizing: border-box;
+}
+.short-hr {
+  width: 80px;
+  margin: 15px auto;
+  color: white;
+}
+.short-hr:not([size]) {
+  /* I found this while inspect the page (what is this ??????)*/
+  height: 9px;
+}
+/*Custom Style*/
+/*Header Style*/
+.show-case {
+  height: 700px;
+  background-image: url("../Pics/laptopBG.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 0 0 62px 62px;
+}
+.show-case h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.show-case p {
+  font-size: small;
+}
+.show-case .btn {
+  background-color: #15aabf;
+  border-radius: 28px;
+}
+/* End Of Header Style*/
+/* Service Section Style*/
+.service .col-md-3 i,
+.client .blockquote i {
+  font-size: 4rem;
+  color: #15aabf;
+  margin-bottom: 9px;
+}
+/*End Of Service Section Style */
+/*Explore Section Style*/
+.explore .card-body .btn {
+  background-color: white;
+  color: #15aabf;
+}
+/* End Of Explore Section*/
+/* Clients Style*/
+.client .blockquote-footer{
+    color: #15aabf;
+}
+/*End OF Clients Style*/
+/*Slieder Section Style */
+.slide .link-more{
+    text-decoration: none;
+    color: #15aabf;
+}
+/*End of Slider*/
+/*Portofolio Section Style*/
+.portofolio .d-flex div{
+    width: 33.3%;
+}
+.portofolio .d-flex div img{
+    width: 100%;
+}
+/*Porofolio Section Style*/
+.contact input,
+.contact textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 8px 0;
+    border-bottom-color: darkblue;
+    width: 20%;
+}
+.contact label{
+    color: #15aabf;
+}
+.contact .btn{
+    background-color: darkblue;
+}
+/*End Of Portofolio Section Style*/
+/*Start of update Section Style*/
+.update{
+    height: 280px;
+    background-color: #15aabf;
+}
+.update input{
+    width: 30%;
+}
+/*end of update Section Style*/
+/* Start Info Section Style*/
+.info{
+    background-color: #1F2D41;
+}
+/*End Of Info Section*/
+/*Start Of Footer Style*/
+.footer{
+    background-color: black;
+    height: 50px;
+}

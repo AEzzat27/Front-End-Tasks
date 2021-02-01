@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background: url(../pics/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body .Header {
+    text-align: center;
+    color: #F3F3F3;
+}
+body .content {
+    background-color: #2b2946c4;
+    margin: auto;
+    border: 1px;
+    border-style: solid;
+    width: 40%;
+    padding: 50px;
+    height: 800px;
+    opacity: 0.7;
+}
+body .content form .labPlace {
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+}
+body .content form .Deco {
+    width: 100%;
+}
+body .content form .radioDeco {
+    font: bold;
+    width: 100%;
+    color: #F3F3F3;
+    float: left;
+}
+body .content form button {
+    color: #F3F3F3;
+    width: 104%;
+    height: 50px;
+    background: #37AF65;
+}

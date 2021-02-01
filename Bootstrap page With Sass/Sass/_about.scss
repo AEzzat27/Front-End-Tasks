@@ -1,0 +1,16 @@
+.about {
+  height: 38rem;
+  padding-top: 12rem;
+  background-color: #f4623a;
+  div {
+    hr {
+      @include short-line();
+      color: white;
+    }
+    button {
+      @include round-button();
+      color: black;
+      background-color: white;
+    }
+  }
+}

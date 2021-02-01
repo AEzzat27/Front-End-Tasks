@@ -1,0 +1,30 @@
+html,body{
+    line-height: 1.8rem;
+    font-family: 'Domine', serif;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 2.6rem;
+}
+@mixin short-line {
+    width: 5%;
+    display: inline-block;
+    color: #F4623A;
+    margin: 10px auto;
+    height: 5px;
+    
+}
+@mixin round-button {
+    border-radius: 28px;
+    background-color:#F4623A;
+    padding: 15px 20px;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: gray;
+    }
+    
+}

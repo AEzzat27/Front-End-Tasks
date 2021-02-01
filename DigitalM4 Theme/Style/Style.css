@@ -1,0 +1,365 @@
+/* Global Style */
+
+html,
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.8rem;
+    box-sizing: border-box;
+}
+.title-round {
+    display: inline-block;
+    background-color: #EDEEF5;
+    margin: 0 auto;
+    border-radius: 30px;
+    color: #848AC2;
+    padding: 15px 46px;
+}
+
+/** Custom Style**/
+
+
+/*navbar style*/
+
+.navbar .navbar-collapse {
+    /* used this to make the logo on the left and the links on the right (any better way)*/
+}
+.navbar .navbar-collapse ul li {
+    padding-left: 20px;
+}
+.navbar .navbar-collapse .btn,
+.price .row .btn {
+    background-color: #848ABD;
+    border-radius: 20px;
+    padding: 10px 40px;
+    border: none;
+}
+.navbar .navbar-collapse .btn:hover {
+    transition: border 1s ease-in-out;
+    border: 4px solid #545977;
+}
+.navbar .collapse .navbar-nav .nav-item .dropdown-menu li a:hover {
+    color: gray;
+    /* nothing work here (why);*/
+}
+
+/*End of Navbar */
+
+
+/* Page Interface Style*/
+
+.showcase {
+    height: 600px;
+    background-image: url('../Pics/background1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.5;
+    background-repeat: none;
+}
+.showcase .container {
+    padding-top: 240px;
+}
+.showcase .container h1 {
+    Font-size: 3rem;
+    Font-weight: 600;
+    Line-height: 55px;
+    margin-bottom: 30px;
+}
+.showcase .btn {
+    background-color: #FFFFFF;
+    padding: 10px 33px;
+    color: black;
+    border-radius: 20px;
+}
+.showcase .btn:hover {
+    transition: border 1s ease-in-out;
+    border: 4px solid #545977;
+}
+
+/* End OF Interface Style*/
+
+
+/* about style*/
+
+.about .container-fluid h2 {
+    margin-top: 30px;
+    font-weight: 700;
+    word-spacing: 8px;
+}
+.about .container-fluid .row .card {
+    border: none;
+}
+.about .container-fluid .row .card .img-container {
+    height: 300px;
+}
+.about .container-fluid .row .card .img-container img {
+    width: 80%;
+}
+.about .container-fluid .row .card .card-body h3 {
+    font-weight: bolder;
+}
+.about .container-fluid .row .card .card-body a {
+    text-decoration: none;
+    color: grey;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 900;
+}
+.about .container-fluid .row .card .card-body a i {
+    margin: 0 6px;
+}
+.about .container-fluid .row .card .card-body a:hover {
+    transform: scale(1.1);
+    transition: color 1s ease-in-out;
+    color: black;
+}
+
+/* end About Section  Style*/
+
+
+/* how it work style */
+
+.work .col-md-6 img {
+    width: 100%;
+}
+.work .row h4 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.work .row .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .row .flex-container div {
+    width: 50%;
+}
+.work .row .flex-container div h4 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.work .row .flex-container div p {
+    padding: 0 30px;
+}
+
+/* End of how it work */
+
+
+/* FAQ Style */
+
+.work .faq-info p {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.work .faq-info ul li{
+    list-style: none;
+}
+.work .faq-info a i {
+    margin-right: 15px;
+    color: #96D9E3;
+}
+.work .faq-info ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+}
+.work .faq-info ul li a:hover {
+    color: #96D9E3;
+}
+.work .faq-pic {
+    height: 500px;
+}
+.work .faq-pic img {
+    height: 50%;
+}
+
+/* End Of FAQ Style */
+
+
+/* How We do it Style */
+
+.work .video-part {
+    height: 900px;
+    background-image: url('../Pics/VideoBg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* tried my best to make it the same like original :(*/
+}
+.work .video-part .title-round {
+    margin-top: 23%;
+}
+.work .video-part p,
+.work .case-info p {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.work .video-part a i {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+    font-size: 25px;
+}
+
+/* end of how we do it */
+
+
+/* Slider part */
+
+.work .d-flex div {
+    width: 25%;
+    height: 400px;
+}
+.work .d-flex div img {
+    width: 100%;
+    height: 300px;
+}
+
+/* End Of Slider Part */
+
+
+/*Service part style*/
+
+.service {
+    border-radius: 0 0 180px 180px;
+}
+.service .top {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.service i {
+    font-size: 1.8rem;
+    margin-right: 10px;
+    color: #3569D3;
+}
+.service .row div {
+    height: 200px;
+}
+.service .row h3 {
+    display: inline-block;
+    font-weight: bolder;
+}
+.service .row p {
+    padding: 0 47px;
+}
+
+/*End of part*/
+
+
+/*What we do Style*/
+
+.target .target-info h4 {
+    color: #8386BE;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.target .target-info p {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+}
+.target .row p {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.target .row #file {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.target .row .img-size {
+    width: 50%
+}
+.target .row .img-size img {
+    width: 100%;
+}
+
+/*end of we do Style*/
+
+/* Clients Style */
+.client .container div .client-info {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.client .col-md-6 img {
+    width: 100%;
+    height: 400px;
+}
+.client .carousel .carousel-item i {
+    font-size: 2.6rem;
+    display: block;
+    text-align: left;
+    margin-bottom: 100px;
+    color: #DADCEB;
+}
+.client .carousel .carousel-item p {
+    font-size: 22px;
+    text-align: left;
+    color: gray;
+}
+.client .carousel .carousel-item .author {
+    font-weight: bolder;
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+}
+
+/*end of clients style*/
+
+/* Price style */
+.price .row .pt-5 {
+    font-weight: bolder;
+}
+.price .row .col-md-4 h3 {
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.price .row .plan-list ul li {
+    list-style: none;
+}
+
+/*end of price style */
+
+/*footer style*/
+.page-end {
+    margin-top: 9rem;
+    height: 520px;
+    background-color: #102F62;
+}
+.page-end .row h1 {
+    font-weight: bolder;
+}
+.page-end .row .col-md-3 ul li {
+    list-style: none;
+    margin-left: -30px;
+}
+.page-end input {
+    border-radius: 20px;
+    background-color: #213E6D;
+    border: none;
+    outline: none;
+}
+.page-end .btn {
+    background-color: #848ABD;
+    border-radius: 20px;
+    border: none;
+    width: 30%;
+}
+.page-end .btn:hover{
+    transition: border 1s ease-in-out;
+    border: 4px solid #545977;
+}
+/*Page Resp*/
+@media (max-width: 767.98px){
+    .page-end{
+        height: 65rem;
+    }
+}
